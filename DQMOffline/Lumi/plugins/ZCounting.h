@@ -70,6 +70,8 @@ private:
   bool ele_probe_selection(double pt, double abseta);
   bool ele_tag_selection(double pt, double abseta);
 
+  
+ //teste
   // initialization from HLT menu; needs to be called on every change in HLT menu
   void initHLT(const edm::TriggerResults&, const edm::TriggerNames&);
 
